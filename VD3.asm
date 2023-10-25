@@ -12,7 +12,7 @@ MAIN proc
     INT 21H
     XOR BX, BX; BX chua ket qua, luc dau la 0
     MOV AH, 1 ; ham doc 1 so tu ban phim
-TIEP: INT 21H
+TIEP: INT 21H    
     CMP AL, 13 ;CR?
     ;JF THOIDOC; dung, thoi doc
     AND AL, 0FH ;khong, doi ma ASCII ra so
