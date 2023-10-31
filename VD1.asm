@@ -36,7 +36,3 @@ MAIN Proc   ;thu tuc chinh
     
 MAIN endp
 END MAIN
-         
-  
-
-
